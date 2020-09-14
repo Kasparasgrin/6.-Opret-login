@@ -13,21 +13,35 @@ body {
         display: inline-block;
         width: 900px;
         margin: 80px calc( (100% - 900px) / 2 ) 0; 
+        position: relative;
     }
         .container > .left-column {
             display: inline-block;
             float: left;
             width: 40%;
             height: 440px;
+            padding: 40 px;
+            margin-top: 30px;
             background-color: aqua;
+            
             background-image: url(./hill.png);
             background-repeat: no-repeat;
             background-size: cover;
             color: white;
         }
-                .left.column > .footer > .link {
-
-                }
+            .container > .left-column > span {
+                padding: 20px;
+                margin-top: 300px;
+                font-size: 35px;
+            }
+            .container >.left-column > .footer {
+                display: inline-block;
+                width: 100%; 
+                position: absolute;
+                left: 40px;
+                bottom: 20px;
+                color: white;
+            }
         .container > .right-column {
             display: inline-block;
             float: left;

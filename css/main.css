@@ -18,8 +18,16 @@ body {
             display: inline-block;
             float: left;
             width: 40%;
+            height: 440px;
             background-color: aqua;
+            background-image: url(./hill.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
         }
+                .left.column > .footer > .link {
+
+                }
         .container > .right-column {
             display: inline-block;
             float: left;
